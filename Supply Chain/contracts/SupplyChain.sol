@@ -100,16 +100,19 @@ contract SupplyChain {
   /* sold modifier requires that the item with the given sku has the state "Sold". */
   modifier sold (uint _sku) {
     require(items[_sku].state == uint(State.Sold));
+    _;
   }
 
   /* shipped modifier requires that the item with the given sku has the state "Shipped".*/
   modifier shipped (uint _sku) {
     require(items[_sku].state == uint(State.Shipped));
+    _;
   }
 
   /* received modifier requires that the item with the given sku has the state "Received". */
   modifier received (uint _sku) {
     require(items[_sku].state == uint(State.Received));
+    _;
   }
 
 
@@ -123,7 +126,7 @@ contract SupplyChain {
 
   function addItem(string _name, uint _price) public {
     emit ForSale(skuCount);
-    items[skuCount] = Item({name: _name, sku: skuCount, price: _price, state: State.ForSale, seller: msg.sender, buyer: 0});
+    items[skuCount] = Item({name: _name, sku: skuCount, price: _price, state: uint(State.ForSale), seller: msg.sender, buyer: 0});
     skuCount = skuCount + 1;
   }
 
