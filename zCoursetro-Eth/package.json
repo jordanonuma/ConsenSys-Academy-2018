@@ -1,7 +1,7 @@
 {
   "name": "zcoursetro-eth",
   "version": "1.0.0",
-  "description": "Coursetro's Smart Contract Tutorial for Beginners",
+  "description": "Solidity Tutorial",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "web3": "github:ethereum/web3.js"
-  }
+  },
+  "devDependencies": {}
 }
