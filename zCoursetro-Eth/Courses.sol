@@ -1,7 +1,26 @@
 pragma solidity ^0.4.18;
 
+/* Contract `OwnedbyMsgSender` will make sure that only the smart contract onlyOwner
+   address will be able to access Contract `Courses`.
+*/
+contract OwnedbyMsgSender {
+  address owner;
 
-contract Courses {
+  function OwnedbyMsgSender () public {
+    owner = msg.sender;
+  }
+
+  modifier onlyOwner {
+    require(msg.sender == owner);
+    _;
+  } //end of modifier onlyOwner
+
+} //end of contract OwnedbyMsgSender
+
+/* Adding `is OwnedbyMsgSender` inherits the ownership restriction from base Contract
+   `OwnedbyMsgSender`.
+*/
+contract Courses is OwnedbyMsgSender {
 
   struct Instructor {
     uint age;
@@ -32,7 +51,7 @@ contract Courses {
      2) and then make a specific function call to grab the single instructor's
         information based on the Ethereum address [function getInstructor()]
   */
-  function setInstructor (address _address, uint _age, string _fName, string _lName) public {
+  function setInstructor (address _address, uint _age, string _fName, string _lName) onlyOwner public { // modifier `onlyOwner` is set in contract `OwnedbyMsgSender` above.
     var instructor = instructorsMap[_address]; //`instructorsMap` is the mapping from address => `Instructor` Struct
                                                // I believe `instructorsMap` doesn't need to pass through as an argument to `setInstructor` since it's public.
 
