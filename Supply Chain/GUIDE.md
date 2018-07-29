@@ -5,6 +5,7 @@ Implement SupplyChain.sol in /contracts/
 To verify that your solution works run `truffle test` to run the test suite
 
 ## Test Results
+<p>
 Using network 'develop'.
 
 Compiling ./contracts/SupplyChain.sol...
@@ -21,3 +22,5 @@ Compiling truffle/DeployedAddresses.sol...
 
 
   4 passing (1s)
+
+</p>
