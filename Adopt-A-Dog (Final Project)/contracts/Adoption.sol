@@ -44,7 +44,7 @@ contract Adoption {
       require(petId >= 0 && petId <= 15);
 
       // Prevents user from adopting someone else's dog.
-      require(adopters[petId].length == 0);
+      require(adopters[petId] == 0);
 
       // User who clicks on 'Adopt' will be identified as the dog's
       // adopter in the `adopters` array
