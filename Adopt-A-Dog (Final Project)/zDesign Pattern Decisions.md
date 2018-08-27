@@ -1,5 +1,5 @@
 ## Design Pattern Implemented  
-Using contract inheritance, the design pattern `Mortal is Owned` was implemented as an emergency stop. With `selfdestruct(owner)` where `owner` is `msg.sender`, the `owner` can call function `close()` to remove the Adoption.sol smart contract from the blockchain and return any ETH held by the contract to `owner`.  
+Using contract inheritance, the design pattern `Mortal is Owned` was implemented as an emergency stop. With `selfdestruct(owner)` where `owner` is `msg.sender`, the _owner_ can call function `close()` to remove the Adoption.sol smart contract from the blockchain and return any ETH held by the contract to _owner_.  
 
 This option was used because it would give the store owner who deploys Adoption.sol the ability to control any misbehavior (similar to the circuit break design pattern). However, because the dApps's likely undesirable behavior is a mismatch between the adopters and the dogs (whether by a user's change of mind or accidental Adopt button click), simply freezing and unfreezing the contract wouldn't be enough. The contract would need to be reverted back to some previous state.  
 
