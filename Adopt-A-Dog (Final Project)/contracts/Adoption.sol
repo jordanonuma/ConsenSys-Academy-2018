@@ -1,6 +1,6 @@
 pragma solidity ^0.4.17;
 
-contract owned {
+contract Owned {
     constructor () public { owner = msg.sender; } //function owned() has been deprecated for constructor() public {}
     address owner;
 
@@ -20,7 +20,7 @@ contract owned {
     } // end of modifier `onlyOwner{}`
 } // end of contract `owned{}`
 
-contract mortal is owned {
+contract Mortal is Owned {
     // This contract inherits the `onlyOwner` modifier from contract
     // `owned` and applies it to the `close` function, so
     // that calls to `close` only have an effect if

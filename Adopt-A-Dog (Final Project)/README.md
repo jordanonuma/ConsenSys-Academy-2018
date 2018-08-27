@@ -14,8 +14,8 @@ dApp Adopt-A-Dog simulates an adoption site by tracking the adopter to the dog t
    6. In the box marked **Wallet Seed**, enter the mnemonic that is given in Ganache.
    7. Enter a password below that and click **OK**.
    8. Connect MetaMask to the blockchain created by Ganache by clicking the menu that shows "Main Network" and selecting "Custom RPC".
-   9. In the box titled "New RPC URL" enter `http://127.0.0.1:7545` and click **Save**. The network name at the top will switch to say "Private Network".
-_Note_: If you have already installed MetaMask before, please clear transactions by going to **Settings**->**Reset Account**. Otherwise MetaMask may throw an error :(.
+   9. In the box titled "New RPC URL" enter `http://127.0.0.1:7545` and click **Save**. The network name at the top will switch to say "Private Network".  
+_Note_: If you have already installed MetaMask before, please clear transactions by going to **Settings** -> **Reset Account**. Otherwise MetaMask may throw an error :(.
 
 ## Run the project
 - `npm install`
