@@ -43,5 +43,5 @@ _Note_: Please make sure to have Ganache running at all times.
 
 ## Miscellaneous
 
-1. [Avoiding Common Attacks](../Adopt-A-Dog\ \(Final\ Project\)//zAvoiding\ Common\ Attacks.md) using different tests.
-2. [Design Pattern Decisions](zDesign\ Pattern\ Decisions.md) that were available and the one selected.
+1. [Avoiding Common Attacks](https://github.com/jordanonuma/ConsenSys-Academy-2018/blob/master/Adopt-A-Dog%20(Final%20Project)/zAvoiding%20Common%20Attacks.md) by applying tests to functions `adopt`, `adopters`, and `getAdopters` to different pet IDs and comparing to expected results.
+2. [Design Pattern Decisions](https://github.com/jordanonuma/ConsenSys-Academy-2018/blob/master/Adopt-A-Dog%20(Final%20Project)/zDesign%20Pattern%20Decisions.md) that were available and the simplest one selected that addressed correcting undesirable adopter behavior.
