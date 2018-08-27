@@ -16,10 +16,10 @@ contract TestAdoption {
     }
 
     ////////////////////////////////////////////////////////////////////////////////
-    // Testing retrieval of a single pet's owner
+    // Testing retrieval of a single pet's owner (ID 8)
     function testGetAdopterAddressByPetId() public {
 
-    // Expected owner is this contract
+    // Expected owner will has ID 8
     address expected = this;
 
     address adopter = adoption.adopters(8);
@@ -30,7 +30,7 @@ contract TestAdoption {
     // Testing retrieval of all pet owners
     function testGetAdopterAddressByPetIdInArray() public {
 
-    // Expected owner is this contract
+    // Expected owner will be owner with ID 8
     address expected = this;
 
     // Store adopters in memory rather than contract's storage
@@ -48,10 +48,10 @@ contract TestAdoption {
     }
 
     ////////////////////////////////////////////////////////////////////////////////
-    // Testing retrieval of a single pet's owner
+    // Testing retrieval of a single pet's owner (ID 9)
     function testGetAdopterAddressByPetId2() public {
 
-    // Expected owner is this contract
+    // Expected owner will has ID 9
     address expected = this;
 
     address adopter = adoption.adopters(9);
@@ -62,7 +62,7 @@ contract TestAdoption {
     // Testing retrieval of all pet owners
     function testGetAdopterAddressByPetIdInArray2() public {
 
-    // Expected owner is this contract
+    // Expected owner will be owner with ID 9
     address expected = this;
 
     // Store adopters in memory rather than contract's storage
