@@ -45,4 +45,4 @@ _Note_: Please make sure to have Ganache running at all times.
 
 1. [Avoiding Common Attacks](https://github.com/jordanonuma/ConsenSys-Academy-2018/blob/master/Adopt-A-Dog%20(Final%20Project)/zAvoiding%20Common%20Attacks.md) by applying tests to functions `adopt()`, `adopters()`, and `getAdopters()` to different pet IDs and comparing to expected results.
 2. [Design Pattern Decisions](https://github.com/jordanonuma/ConsenSys-Academy-2018/blob/master/Adopt-A-Dog%20(Final%20Project)/zDesign%20Pattern%20Decisions.md) that were available and the simplest one selected that addressed correcting undesirable adopter behavior.
-3. [IPFS](https://github.com/jordanonuma/ConsenSys-Academy-2018/blob/master/Adopt-A-Dog%20(Final%20Project)/zDesign%20Pattern%20Decisions.md) has been used to upload the code.
+3. [dApp Code](https://github.com/jordanonuma/ConsenSys-Academy-2018/blob/master/Adopt-A-Dog%20(Final%20Project)/zIPFS.md) has been used to uploaded to [IPFS](https://ipfs.io).
