@@ -31,11 +31,11 @@ _Note_: Please make sure to have Ganache running at all times.
 
 1. [http://localhost:3000](http://localhost:3000) will take you to something similar to the following:
 ![](zassets/images/Step1.png)
-2. Find a dog (like Frieda) that you'd like to adopt and click the **Adopt** button.
+2. Find a dog (like Frieda) that you'd like to adopt and click the **Adopt** button.  
 ![](zassets/images/Step2.png)
-3. Find the MetaMask prompt whether to proceed. Click **Confirm**.
+3. Find the MetaMask prompt whether to proceed. Click **Confirm**.  
 ![](zassets/images/Step3.png)
-4. MetaMask will confirm that transaction has gone through.
+4. MetaMask will confirm that transaction has gone through.  
 ![](zassets/images/Step4.png)
-5. Your adoption will show as `Success`. Congratulations on your adoption!
+5. Your adoption will show as `Success`. Congratulations on your adoption!  
 ![](zassets/images/Step5.png)
