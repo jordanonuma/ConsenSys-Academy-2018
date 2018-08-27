@@ -24,7 +24,7 @@ _\*Note_: If you have already installed MetaMask before, please clear transactio
 - `truffle compile`
 - `truffle migrate`
 - `npm run dev`
-- navigate to [http://localhost:3000](http://localhost:3000)
+- Navigate to [http://localhost:3000](http://localhost:3000)
 
 _Note_: Please make sure to have Ganache running at all times.
 

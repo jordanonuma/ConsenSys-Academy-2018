@@ -3,7 +3,7 @@ Using contract inheritance, the design pattern `Mortal is Owned` was implemented
 
 This option was used because it would give the store owner who deploys Adoption.sol the ability to control any misbehavior (similar to the circuit break design pattern). However, because the dApps's likely undesirable behavior is a mismatch between the adopters and the dogs (whether by a user's change of mind or accidental Adopt button click), simply freezing and unfreezing the contract wouldn't be enough. The contract would need to be reverted back to some previous state.  
 
-## Others Considered but Not Implemented  
+## Others Considered But Not Implemented  
 The speed bump pattern was also considered because of its useful ability to slow down undesirable behavior. This could have worked well in allowing for a dog trial period, for example, before crystallizing an address as the dog's adopter on the blockchain. However, this was considered additional functionality but not necessary for security.  
 
 Closing the `Adoption.sol` smart contract using auto deprecation was considered, perhaps to simulate which dogs were available at the opening and closing of the shop. However, there would still need to be a further design pattern layered on top that would account for undesirable behavior.  
