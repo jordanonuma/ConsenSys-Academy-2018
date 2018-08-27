@@ -38,7 +38,7 @@ _Note_: Please make sure to have Ganache running at all times.
 ![](zassets/images/Step3.png)
 4. MetaMask will confirm that transaction has gone through.  
 ![](zassets/images/Step4.png)
-5. Your adoption will show as *Success*. Congratulations on your adoption!  
+5. Your adoption will show as **Success**. Congratulations on your adoption!  
 ![](zassets/images/Step5.png)
 
 ## Miscellaneous
