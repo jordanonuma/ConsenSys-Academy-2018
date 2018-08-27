@@ -40,3 +40,8 @@ _Note_: Please make sure to have Ganache running at all times.
 ![](zassets/images/Step4.png)
 5. Your adoption will show as `Success`. Congratulations on your adoption!  
 ![](zassets/images/Step5.png)
+
+## Miscellaneous
+
+1. [Avoiding Common Attacks](zAvoiding Common Attacks.md) using different tests.
+2. [Design Pattern Decisions](zDesign Pattern Decisions.md) that were available and the one selected.
