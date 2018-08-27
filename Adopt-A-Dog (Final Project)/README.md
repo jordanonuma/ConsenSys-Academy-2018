@@ -45,3 +45,4 @@ _Note_: Please make sure to have Ganache running at all times.
 
 1. [Avoiding Common Attacks](../Adopt-A-Dog\ \(Final\ Project\)/zAvoiding Common Attacks.md) using different tests.
 2. [Design Pattern Decisions](zDesign Pattern Decisions.md) that were available and the one selected.
+3. [Design Pattern Decisions](../zDesign Pattern Decisions.md) that were available and the one selected.
