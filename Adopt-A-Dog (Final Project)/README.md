@@ -1,5 +1,5 @@
 # Adopt-A-Dog
-dApp Adopt-A-Dog simulates an adoption site by tracking the adopter to the dog they decide to adopt.
+dApp Adopt-A-Dog simulates an adoption site by tracking the adopter to the dog they decide to adopt. Many thanks to Truffle for allowing this learning opportunity through their [pet shop tutorial](https://truffleframework.com/tutorials/pet-shop).
 
 ## Set up the project
 
